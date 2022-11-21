@@ -1,0 +1,209 @@
+body{
+	background-image: url('https://ak.picdn.net/shutterstock/videos/1054177496/thumb/1.jpg?ip=x480');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+div{
+	margin: 0px;
+}
+
+
+.taille{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1;
+}
+
+.bar{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(6, 1fr);
+	height: 100%;
+}
+
+.name{
+	grid-row: 6;
+}
+
+.nom{
+	position: absolute;
+	bottom: 0px;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	width: 100%;
+	height: 10%;
+	padding: 5px 0;
+
+}
+
+.text img, .text div{
+	width: 200px;
+	height: 200px;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.flex{
+	display: flex;
+	justify-content: center;
+}
+
+.titre{
+	color: black;
+	font-size: 100px;
+	margin: 20px;
+	border: 5px solid rgba(0, 0, 0, 0.5);
+	padding: 5px 25px;
+}
+
+.border{
+	border: 5px solid rgba(0, 0, 0, 0.5);
+	padding: 5px 25px;
+}
+
+.informations{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.desc{
+	width: 300px;
+	height: 400px;
+}
+
+.prix{
+	width: 200px;
+	height: 200px;
+}
+
+.pays{
+	width: 200px;
+	height: 200px;
+}
+
+.musiciens{
+	width: 200px;
+	height: 200px;
+}
+
+.email{
+	width: 200px;
+	height: 200px;
+}
+
+.image{
+	margin: 0;
+	padding: 0;
+	width: 500px;
+	height: 300px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.head{
+	width: 100vw;
+	height: 10vh;
+	background-color: rgba(0, 0, 0, 1);
+	font-family: Arial;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.button{
+	font-size: 2em;
+	color: whitesmoke;
+	text-decoration: none;
+	margin: 20px;
+}
+
+.button:hover{
+	color: gold;
+}
+
+.page{
+	width: 30vw;
+	height: 80vh;
+	border: 3px solid pink;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: whitesmoke;
+	margin: 5vh auto;
+}
+
+
+input{
+	border: none;
+	border-bottom: 1px solid white;
+	background-color: rgba(0, 0, 0, 0);
+	color: whitesmoke;
+	margin-top: 20px;
+	padding:  10px;
+}
+
+textarea{
+	border: 1px solid white;
+	background-color: rgba(0, 0, 0, 0);
+	color: whitesmoke;
+	margin-top: 20px;
+	padding: 10px;
+	resize: none;
+}
+
+.send{
+	width: 150px;
+	height: 50px;
+	border: 1px solid white;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+::placeholder{
+	color: white;
+}
+
+input:focus, textarea:focus{
+	text-decoration: none;
+	outline: none;
+	box-shadow: none;S
+}
+
+.choisir_pays{
+	background-color: rgba(0, 0, 0, 0);
+	padding: 1em;
+	padding-right: 2.5em;
+	margin-left: 2em;
+	color: whitesmoke;
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+option, optgroup{
+	color: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+}
+
+.margin{
+	margin-left: 7.5em;
+}

@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('https://ak.picdn.net/shutterstock/videos/1054177496/thumb/1.jpg?ip=x480');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.head{
+	width: 100%;
+	height: 10vh;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button-header{
+	font-size: 2em;
+	color: whitesmoske;
+	text-decoration: none;
+	margin: 20px;
+}
+
+.button-header:hover{
+	color: gold;
+}
+
+.button-header:visited{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.groupes{
+	width: 480px;
+	height: 270px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.taille-groupes{
+	width: 100%;
+	height: 100%;
+}
+
+.nom-groupes{
+	position: absolute;
+	bottom: 0;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	padding: 0.5em 0;
+	margin: 0;
+}
+
+.nom-groupes:visited{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.border{
+	border: 2px solid whitesmoke;
+}
+
+.page{
+	width: 30vw;
+	height: 80vh;
+	border: 3px solid pink;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: whitesmoke;
+	margin: 5vh auto;
+}
+
+.flex-page{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.style-input{
+	border: 1px solid white;
+	background-color: rgba(0, 0, 0, 0);
+	color: whitesmoke;
+	margin-top: 20px;
+	padding: 1em;
+	resize: none;
+}
+
+.style-input:focus{
+	text-decoration: none;
+	outline: none;
+	box-shadow: none;S
+}
+
+.button-submit{
+	width: 150px;
+	height: 50px;
+	border: 1px solid white;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	color: whitesmoke;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+::placeholder{
+	color: white;
+}
+
+.choisir_pays{
+	background-color: rgba(0, 0, 0, 0);
+	padding: 1em;
+	padding-right: 2.5em;
+	margin-left: 1em;
+	margin-top: 20px;
+	color: whitesmoke;
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+option, optgroup{
+	color: black;
+}
+
+.style-input::-webkit-outer-spin-button,
+.style-input::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+}
+
+.style-infos-small{
+	width: 30%;
+	height: 2em;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.style-infos-big{
+	width: 80%;
+	height: 5em;
+	padding: 10px;
+	margin: 16px;
+	overflow-wrap: break-word;
+}
+
+.style-infos-image{
+	width: 360px;
+	height: 180px;
+	margin: 0 30px;
+}
+
+.style-infos-email{
+	width: 80%;
+	height: 2em;
+	padding: 10px;
+	margin: 16px;
+}
+
+.titre{
+	width: 100%;
+	text-align: center;
+}
